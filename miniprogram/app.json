@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/playList/playList",
+    "pages/blogs/blogs",
+    "pages/profile/profile"
+  ],
+  "tabBar": {
+    "color":"#474747",
+    "selectedColor":"#d43c43",
+    "list": [
+      {
+      "pagePath": "pages/playList/playList",
+      "text": "音乐",
+      "iconPath": "./assets/imgs/2-3_music.png",
+      "selectedIconPath": "./assets/imgs/2-3_music-actived.png"
+    },
+      {
+      "pagePath": "pages/blogs/blogs",
+      "text": "发现",
+      "iconPath": "./assets/imgs/2-3_blog.png",
+      "selectedIconPath": "./assets/imgs/2-3_blog-actived.png"
+    },
+      {
+      "pagePath": "pages/profile/profile",
+      "text": "我的",
+      "iconPath": "./assets/imgs/2-3_profile.png",
+      "selectedIconPath": "./assets/imgs/2-3_profile-actived.png"
+    }
+  ]
+  },
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "风之谷",
+    "navigationBarTextStyle":"white",
+    "navigationBarBackgroundColor": "#d43c43"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}
